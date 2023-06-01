@@ -1,1 +1,27 @@
 /* CSS 선택자(Selector) */
+* {
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "SUIT";
+  font-weight: 300;
+  background-color: #000;
+  color: rgb(255, 255, 255);
+}
+
+.fancy {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #77f;
+}
+
+ul.menu {
+  margin: 0;
+  padding-left: 0;
+  color: rgb(170, 75, 75);
+}
+
+#demo {
+  border: red 2px solid;
+}
